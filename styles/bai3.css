@@ -23,9 +23,14 @@ body{
 }
 
 .nav__item{
+	color:red;
 	list-style-type: none;
 	margin-right:6px;
 	text-align:center;
+}
+
+.nav__item a{
+	text-decoration:none;
 }
 
 .nav__menu{
@@ -72,6 +77,9 @@ body{
 .list__item{
 	position:relative;
 	padding-left:9px;
+}
+
+.link{
 	color: #595959;
 }
 
