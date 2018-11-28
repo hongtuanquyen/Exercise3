@@ -10,6 +10,7 @@ body{
 	background-repeat: no-repeat;
 	padding-top:195px;
 	padding-bottom:64px;
+	margin:0px auto;
 }
 
 .nav{
@@ -34,7 +35,7 @@ body{
 }
 
 .nav__menu{
-	margin:6px 0px 0px 0px;
+  margin: -3px 0px 0px 0px;
 	font-size: 20px;
 	line-height: 1;
 	color: #ffffff;
@@ -54,7 +55,7 @@ body{
 	padding:43px 23px 0px 21px;
 }
 
-.content{
+.left__part .content{
 	border-top:1px solid #7e7e7e;
 	border-bottom:1px solid #2c2c2c;
 	margin: 0px 0px 28px 0px;
@@ -65,13 +66,17 @@ body{
 }
 
 .left__list{
-	margin:0px 0px 0px 20px;
+	margin: -4px 0px 0px 20px;
 	padding:0px;
 	list-style-type: none;
 	font-size: 13px;
 	line-height: 1.38;
 	color: #595959;
 	text-decoration:underline;
+}
+
+.left__list li{
+	margin-bottom: 6px;
 }
 
 .list__item{
@@ -90,7 +95,7 @@ body{
   border-bottom: 3px solid transparent;
   height:0;
   width:0;
-  margin-top:5px;
+  margin-top:4px;
   left:0%;
 	top:7%;
   content: "";
@@ -101,19 +106,27 @@ body{
 	margin-left:40px;
 }
 
-.right__part .block .content{
+.right__part .content{
+	font-size: 11px;
+	line-height: 15px;
+	color: #595959;
+	font-family: "Times New Roman";	
+}
+
+.right__part .right_top .content, 
+.right__part .right_bottom .content{
 	margin-left:14px;
 	margin-right:14px;
-	margin-top:20px;
-	padding-bottom:17px;
-	border-bottom:1px dotted #595959;
+  margin-top: 15px;
+	padding-bottom: 5px;
+	border-bottom:1px dotted #212122;
 }
 
 .content__text{
 	font-size:11px;
 	line-height:1.36;
 	color:#595959;
-	margin-top:11px;
+	margin-top: 5px;
 }
 
 .launch__website{
@@ -130,13 +143,17 @@ body{
 	text-decoration:none;
 }
 
-.block{
+.right_top{
 	margin-top:40px;
+}
+
+.right_bottom{
+  margin-top: 35px;
 }
 
 .footer{
 	width: 654px;
-	border-top: 1px dotted #242424;
+	border-top: 1px dotted #212122;
 	color: #595959;
 	font-size: 10px;
 	line-height: 1.5;
